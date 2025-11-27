@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Stack+Sans+Headline:wght@200..700&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  --color-frenchblue: #26408b;
+  --color-amberglow: #ff9f1c;
+  --color-ghostwhite: #f4f4f9;
+
+  --font-headline: "Stack Sans Headline", sans-serif;
+}
