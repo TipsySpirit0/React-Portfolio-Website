@@ -7,7 +7,7 @@ export default function Projects() {
       img: "./Dealscope.png",
       tools: ["React", "Tailwind Css", "Django", "React-Router", "React-icons"],
       type: "Fullstack Project",
-      link: "",
+      link: "https://github.com/TipsySpirit0/deal-scope",
       year: "2025",
     },
     {
@@ -17,7 +17,7 @@ export default function Projects() {
       img: "./moviesApp.png",
       tools: ["Angular", "Tailwind Css", "Typescript"],
       type: "Frontend Project",
-      link: "",
+      link: "https://github.com/TipsySpirit0/angular-v18-movies-app-repeated",
       year: "2024",
     },
     {
@@ -27,7 +27,7 @@ export default function Projects() {
       img: "./studentRecord.png",
       tools: ["Angular", "Tailwind Css", "Eslint"],
       type: "Frontend Project",
-      link: "",
+      link: "https://github.com/TipsySpirit0/students-records-app",
       year: "2024",
     },
   ];
