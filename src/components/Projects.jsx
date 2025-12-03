@@ -49,6 +49,7 @@ export default function Projects() {
           {projects.map((project) => (
             <a
               href={project.link}
+              target="_blank"
               className="bg-gray-200 w-fit min-h-[450px] border border-gray-400 mt-2 p-5 rounded-lg"
             >
               <div className="flex flex-row justify-between">
