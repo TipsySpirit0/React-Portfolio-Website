@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="bg-gray-200 flex justify-center items-center p-5 lg:p-15"
+      className="flex justify-center items-center p-5 lg:p-15"
     >
       <div className="md:w-[75%] grid lg:grid-cols-2 items-center">
         <div className="flex flex-col justify-center h-full lg:py-20">

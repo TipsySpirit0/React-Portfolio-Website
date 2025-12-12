@@ -2,7 +2,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="bg-ghostwhite flex justify-center items-center md:p-20 p-5"
+      className="flex justify-center items-center md:p-20 p-5"
     >
       <div className="lg:w-[75%] py-3 grid lg:grid-cols-2 gap-12">
         <div>

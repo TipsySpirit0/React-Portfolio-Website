@@ -2,7 +2,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="bg-ghostwhite p-5 lg:p-20 flex justify-center"
+      className="p-5 lg:p-20 flex justify-center"
     >
       <div className="md:w-[85%] grid lg:grid-cols-2 gap-8 lg:gap-0">
         <div className="flex flex-col gap-5 lg:py-5 lg:px-15">

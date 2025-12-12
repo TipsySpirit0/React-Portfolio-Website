@@ -34,7 +34,7 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="bg-gray-200 p-5 lg:p-20 flex flex-col items-center mb-6"
+      className="p-5 lg:p-20 flex flex-col items-center mb-6"
     >
       <div className="lg:w-[75%]">
         <div>
@@ -50,7 +50,7 @@ export default function Projects() {
             <a
               href={project.link}
               target="_blank"
-              className="bg-gray-200 w-fit min-h-[450px] border border-gray-400 mt-2 p-5 rounded-lg"
+              className="bg-gray-200 w-fit min-h-112.5 border border-gray-400 mt-2 p-5 rounded-lg"
             >
               <div className="flex flex-row justify-between">
                 <span className="p-2 text-xs bg-gray-400 rounded-full">
