@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Stack+Sans+Headline:wght@200..700&display=swap");
-
 @import "tailwindcss";
+
 
 @theme {
   --color-frenchblue: #26408b;
