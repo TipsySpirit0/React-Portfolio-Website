@@ -34,14 +34,14 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="p-5 lg:p-20 flex flex-col items-center mb-6"
+      className="p-5 lg:p-20 flex flex-col items-center mb-6 bg-mainbg"
     >
       <div className="lg:w-[75%]">
         <div>
           <h1 className="mb-4 text-5xl">
-            Featured <span className="text-frenchblue">Projects</span>
+            Featured <span className="text-primaryaccent">Projects</span>
           </h1>
-          <p className="text-xl text-gray-500 mb-6">
+          <p className="text-xl text-secondarytext mb-6">
             A selection of my most recent work
           </p>
         </div>
@@ -50,10 +50,10 @@ export default function Projects() {
             <a
               href={project.link}
               target="_blank"
-              className="bg-gray-200 w-fit min-h-112.5 border border-gray-400 mt-2 p-5 rounded-lg hover:bg-black"
+              className="bg-altbg w-fit min-h-113 border border-gray-300 mt-2 p-5 rounded-lg hover:scale-105 transition-transform duration-300"
             >
-              <div className="flex flex-row justify-between">
-                <span className="p-2 text-xs bg-gray-400 rounded-full">
+              <div className="flex flex-row justify-between items-center">
+                <span className="p-3 text-xs border border-gray-300 rounded-full">
                   {project.type}
                 </span>
                 <span className="text-sm rounded-full">{project.year}</span>
@@ -64,11 +64,13 @@ export default function Projects() {
                 className="w-fit rounded-md mt-4"
               />
               <div className="mt-3">
-                <h1 className="text-xl font-semibold">{project.title}</h1>
-                <p className="text-gray-500 my-3">{project.description}</p>
+                <h1 className="text-primarytext text-xl font-semibold">
+                  {project.title}
+                </h1>
+                <p className="text-secondarytext my-3">{project.description}</p>
                 <div className="flex flex-wrap gap-2">
                   {project.tools.map((tool) => (
-                    <span className="p-3 text-sm bg-amberglow rounded-full">
+                    <span className="p-3 text-sm bg-secondaryaccent rounded-full">
                       {tool}
                     </span>
                   ))}

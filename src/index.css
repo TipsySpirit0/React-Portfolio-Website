@@ -1,11 +1,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Stack+Sans+Headline:wght@200..700&display=swap");
 @import "tailwindcss";
 
-
 @theme {
   --color-frenchblue: #26408b;
   --color-amberglow: #ff9f1c;
   --color-ghostwhite: #f4f4f9;
+
+  --color-mainbg: #f8fafc;
+  --color-altbg: #f1f5f9;
+  --color-primarytext: #0f172a;
+  --color-secondarytext: #475569;
+  --color-mainbuttontext: #f8fafc;
+  --color-altbuttontext: #020617;
+  --color-primaryaccent: #4f46e5;
+  --color-secondaryaccent: #06b6d4;
+  --color-border: #e2e8f0;
+
+  --color-mainbg-dark: #020617;
+  --color-altbg-dark: #1e293b;
+  --color-primarytext-dark: #e5e7eb;
+  --color-secondarytext-dark: #94a3b8;
+  --color-mainbuttontext-dark: #020617;
+  --color-altbuttontext-dark: #f8fafc;
+  --color-primaryaccent-dark: #6366f1;
+  --color-secondaryaccent-dark: #22d3ee;
+  --color-border-dark: #1e293b;
 
   --font-headline: "Stack Sans Headline", sans-serif;
 }

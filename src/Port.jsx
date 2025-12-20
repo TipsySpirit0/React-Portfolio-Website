@@ -11,11 +11,11 @@ export default function Port() {
 
   return (
     <main className="min-h-screen font-headline">
-      <nav className="sticky top-0 z-50 bg-transparent backdrop-blur border-b border-gray-300">
+      <nav className="sticky top-0 z-50 bg-mainbg border-b border-gray-300">
         <div className="w-[85%] justify-self-center flex flex-row justify-between py-3">
           <a
             href="#hero"
-            className="text-2xl font-bold text-frenchblue hover:text-amberglow"
+            className="text-2xl font-bold text-primaryaccent hover:text-secondaryaccent"
           >
             TOBILOBA
           </a>
