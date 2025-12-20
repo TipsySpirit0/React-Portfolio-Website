@@ -7,7 +7,12 @@ import Footer from "./components/Footer";
 
 export default function Port() {
   const [isOpen, setIsOpen] = useState(false);
+  const [isDark, setDark] = useState(false)
   const Navlinks = ["About", "Projects", "Contact"];
+
+  const toggleTheme = () => {
+    setDark(!isDark)
+  }
 
   return (
     <main className="min-h-screen font-headline">
@@ -35,14 +40,18 @@ export default function Port() {
                 {item}
               </a>
             ))}
+            {/* Dark mode button */}
+            <button onClick={toggleTheme}>{}</button>
           </div>
         </div>
       </nav>
-      <Hero />
-      <About />
-      <Projects />
-      <Contact />
-      <Footer />
+      <div className={isDark?"dark":""}>
+        <Hero />
+        <About />
+        <Projects />
+        <Contact />
+        <Footer />
+      </div>
     </main>
   );
 }
