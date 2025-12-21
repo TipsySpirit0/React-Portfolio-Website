@@ -4,7 +4,7 @@ export default function Contact() {
       id="contact"
       className="p-5 lg:p-20 flex justify-center bg-mainbg dark:bg-mainbg-dark"
     >
-      <div className="md:w-[85%] grid lg:grid-cols-2 gap-8 lg:gap-0">
+      <div className="lg:w-[75%] grid lg:grid-cols-2 gap-8 lg:gap-0">
         <div className="flex flex-col gap-5 lg:py-5 lg:px-15">
           <h1 className="text-5xl lg:mb-3 text-primarytext dark:text-primarytext-dark">
             Get in{" "}
@@ -30,26 +30,26 @@ export default function Contact() {
           </div>
         </div>
 
-        <div className="lg:w-[75%] mx-4 lg:mx-auto bg-white p-10 rounded-lg shadow-lg">
+        <div className="lg:w-[75%] mx-4 lg:mx-auto bg-altbg dark:bg-altbg-dark p-10 rounded-lg shadow-lg">
           <form className="grid grid-cols-1 gap-6">
             <input
               type="text"
               placeholder="Your Name"
-              className="p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primaryaccent"
+              className="p-3 text-primarytext dark:text-primarytext-dark border border-gray-300 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-primaryaccent dark:focus:ring-primaryaccent-dark"
             />
             <input
               type="email"
               placeholder="Your Email"
-              className="p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primaryaccent"
+              className="p-3 text-primarytext dark:text-primarytext-dark border border-gray-300 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-primaryaccent dark:focus:ring-primaryaccent-dark"
             />
             <textarea
               placeholder="Your Message"
               rows="5"
-              className="p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primaryaccent"
+              className="p-3 text-primarytext dark:text-primarytext-dark border border-gray-300 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-primaryaccent dark:focus:ring-primaryaccent-dark"
             ></textarea>
             <button
               type="submit"
-              className="bg-primaryaccent text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition w-fit mx-auto"
+              className="bg-primaryaccent dark:bg-primaryaccent-dark text-primarytext dark:text-primarytext-dark px-6 py-3 rounded-lg hover:bg-secondaryaccent dark:hover:bg-secondaryaccent-dark transition w-fit mx-auto"
             >
               Send Message
             </button>

@@ -17,7 +17,7 @@ export default function Hero() {
             responsive, and user-friendly websites.
           </h2>
           <div className="flex gap-3">
-            <button className="bg-primaryaccent dark:bg-primaryaccent-dark text-mainbuttontext dark:text-mainbuttontext-dark px-6 py-3 rounded-lg hover:scale-105 transition w-fit">
+            <button className="bg-primaryaccent dark:bg-primaryaccent-dark text-mainbuttontext dark:text-mainbuttontext-dark px-6 py-3 rounded-lg hover:scale-105 transition w-fit cursor-pointer">
               <a href="#projects">View My Projects</a>
             </button>
 

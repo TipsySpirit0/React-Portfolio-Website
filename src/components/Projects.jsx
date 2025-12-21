@@ -34,7 +34,7 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="p-5 lg:p-20 flex flex-col items-center mb-6 bg-mainbg dark:bg-mainbg-dark"
+      className="p-5 lg:p-20 flex flex-col items-center bg-mainbg dark:bg-mainbg-dark"
     >
       <div className="lg:w-[75%]">
         <div>
@@ -59,7 +59,9 @@ export default function Projects() {
                 <span className="p-3 text-xs border text-primarytext dark:text-primarytext-dark border-gray-300 dark:border-gray-600 rounded-full">
                   {project.type}
                 </span>
-                <span className="text-sm rounded-full text-primarytext dark:text-primarytext-dark">{project.year}</span>
+                <span className="text-sm rounded-full text-primarytext dark:text-primarytext-dark">
+                  {project.year}
+                </span>
               </div>
               <img
                 src={project.img}
@@ -70,7 +72,9 @@ export default function Projects() {
                 <h1 className="text-primarytext dark:text-primarytext-dark text-xl font-semibold">
                   {project.title}
                 </h1>
-                <p className="text-secondarytext dark:text-secondarytext-dark my-3">{project.description}</p>
+                <p className="text-secondarytext dark:text-secondarytext-dark my-3">
+                  {project.description}
+                </p>
                 <div className="flex flex-wrap gap-2">
                   {project.tools.map((tool) => (
                     <span className="p-3 text-sm bg-secondaryaccent dark:bg-secondaryaccent-dark text-primarytext rounded-full">
