@@ -34,14 +34,17 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="p-5 lg:p-20 flex flex-col items-center mb-6 bg-mainbg"
+      className="p-5 lg:p-20 flex flex-col items-center mb-6 bg-mainbg dark:bg-mainbg-dark"
     >
       <div className="lg:w-[75%]">
         <div>
-          <h1 className="mb-4 text-5xl">
-            Featured <span className="text-primaryaccent">Projects</span>
+          <h1 className="mb-4 text-5xl text-primarytext dark:text-primarytext-dark">
+            Featured{" "}
+            <span className="text-primaryaccent dark:text-primaryaccent-dark">
+              Projects
+            </span>
           </h1>
-          <p className="text-xl text-secondarytext mb-6">
+          <p className="text-xl text-secondarytext dark:text-secondarytext-dark mb-6">
             A selection of my most recent work
           </p>
         </div>
@@ -50,13 +53,13 @@ export default function Projects() {
             <a
               href={project.link}
               target="_blank"
-              className="bg-altbg w-fit min-h-113 border border-gray-300 mt-2 p-5 rounded-lg hover:scale-105 transition-transform duration-300"
+              className="bg-altbg dark:bg-altbg-dark w-fit min-h-113 border border-gray-300 dark:border-gray-600 mt-2 p-5 rounded-lg hover:scale-105 transition-transform duration-300"
             >
               <div className="flex flex-row justify-between items-center">
-                <span className="p-3 text-xs border border-gray-300 rounded-full">
+                <span className="p-3 text-xs border text-primarytext dark:text-primarytext-dark border-gray-300 dark:border-gray-600 rounded-full">
                   {project.type}
                 </span>
-                <span className="text-sm rounded-full">{project.year}</span>
+                <span className="text-sm rounded-full text-primarytext dark:text-primarytext-dark">{project.year}</span>
               </div>
               <img
                 src={project.img}
@@ -64,13 +67,13 @@ export default function Projects() {
                 className="w-fit rounded-md mt-4"
               />
               <div className="mt-3">
-                <h1 className="text-primarytext text-xl font-semibold">
+                <h1 className="text-primarytext dark:text-primarytext-dark text-xl font-semibold">
                   {project.title}
                 </h1>
-                <p className="text-secondarytext my-3">{project.description}</p>
+                <p className="text-secondarytext dark:text-secondarytext-dark my-3">{project.description}</p>
                 <div className="flex flex-wrap gap-2">
                   {project.tools.map((tool) => (
-                    <span className="p-3 text-sm bg-secondaryaccent rounded-full">
+                    <span className="p-3 text-sm bg-secondaryaccent dark:bg-secondaryaccent-dark text-primarytext rounded-full">
                       {tool}
                     </span>
                   ))}

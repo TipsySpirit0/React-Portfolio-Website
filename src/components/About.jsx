@@ -2,14 +2,14 @@ export default function About() {
   return (
     <section
       id="about"
-      className="flex justify-center items-center md:p-20 p-5 bg-mainbg"
+      className="flex justify-center items-center md:p-20 p-5 bg-mainbg dark:bg-mainbg-dark"
     >
       <div className="lg:w-[75%] py-3 grid lg:grid-cols-2 gap-12">
         <div>
-          <h1 className="text-5xl mb-6 text-primarytext">
-            About <span className="text-primaryaccent">Me</span>
+          <h1 className="text-5xl mb-6 text-primarytext dark:text-primarytext-dark">
+            About <span className="text-primaryaccent dark:text-primaryaccent-dark">Me</span>
           </h1>
-          <p className="text-xl text-secondarytext mb-3">
+          <p className="text-xl text-secondarytext dark:text-secondarytext-dark mb-3">
             I'm a Frontend developer who thrives on building reliable responsive
             websites. I'm passionate about the intersection of design and code,
             always pushing to create experiences that are not just beautiful,
@@ -17,12 +17,12 @@ export default function About() {
           </p>
           <div className="grid grid-cols-3 gap-4 pt-6">
             <div className="space-y-2">
-              <p className="text-3xl font-bold text-primarytext">10+</p>
-              <p className="text-sm text-secondarytext">Projects Completed</p>
+              <p className="text-3xl font-bold text-primarytext dark:text-primarytext-dark">10+</p>
+              <p className="text-sm text-secondarytext dark:text-secondarytext-dark">Projects Completed</p>
             </div>
             <div className="space-y-2">
-              <p className="text-3xl font-bold text-primarytext">2+</p>
-              <p className="text-sm text-secondarytext">Years Experience</p>
+              <p className="text-3xl font-bold text-primarytext dark:text-primarytext-dark">2+</p>
+              <p className="text-sm text-secondarytext dark:text-secondarytext-dark">Years Experience</p>
             </div>
           </div>
         </div>
@@ -44,7 +44,7 @@ export default function About() {
               "Web Scraping",
               "API Integration",
             ].map((skills) => (
-              <span className="p-3 text-sm text-primarytext bg-secondaryaccent rounded-full">
+              <span className="p-3 text-sm text-primarytext bg-secondaryaccent dark:bg-secondaryaccent-dark rounded-full">
                 {skills}
               </span>
             ))}

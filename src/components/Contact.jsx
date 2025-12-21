@@ -1,14 +1,20 @@
 export default function Contact() {
   return (
-    <section id="contact" className="p-5 lg:p-20 flex justify-center bg-mainbg">
+    <section
+      id="contact"
+      className="p-5 lg:p-20 flex justify-center bg-mainbg dark:bg-mainbg-dark"
+    >
       <div className="md:w-[85%] grid lg:grid-cols-2 gap-8 lg:gap-0">
         <div className="flex flex-col gap-5 lg:py-5 lg:px-15">
-          <h1 className="text-5xl lg:mb-3">
-            Get in <span className="text-primaryaccent">Touch</span>
+          <h1 className="text-5xl lg:mb-3 text-primarytext dark:text-primarytext-dark">
+            Get in{" "}
+            <span className="text-primaryaccent dark:text-primaryaccent-dark">
+              Touch
+            </span>
           </h1>
-          <p className="text-wrap text-lg text-gray-500">
+          <p className="text-wrap text-lg text-secondarytext dark:text-secondarytext-dark">
             Say hello at{" "}
-            <span className="border-b-2 border-secondaryaccent">
+            <span className="border-b-2 border-secondaryaccent dark:border-secondaryaccent-dark">
               tobitobe66@gmail.com
             </span>
             . Whether you have a job opportunity, a project idea, or just want
@@ -17,7 +23,7 @@ export default function Contact() {
           <div className="flex flex-row gap-5 items-center flex-wrap">
             <a
               href="#"
-              className="border-b-2 border-secondaryaccent font-semibold"
+              className="border-b-2 text-primarytext dark:text-primarytext-dark border-secondaryaccent dark:border-secondaryaccent-dark font-semibold"
             >
               Resume
             </a>
