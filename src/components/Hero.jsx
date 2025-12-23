@@ -10,7 +10,9 @@ export default function Hero() {
         <div className="flex flex-col justify-center h-full lg:py-20">
           <h1 className="text-5xl font-bold mb-2 leading-tight lg:mb-4 text-primarytext dark:text-primarytext-dark">
             Hi, I am <br />
-            <span className="text-primaryaccent dark:text-primaryaccent-dark">Onabanjo Oluwatobiloba.</span>
+            <span className="text-primaryaccent dark:text-primaryaccent-dark">
+              Onabanjo Oluwatobiloba.
+            </span>
           </h1>
           <h2 className="text-xl mb-3 md:mb-8 text-secondarytext dark:text-secondarytext-dark">
             A passionate Frontend developer turning ideas into modern,
@@ -28,7 +30,7 @@ export default function Hero() {
         </div>
         <div>
           <img
-            src="/placeholder.jpg"
+            src="/photo.png"
             alt="placeholder"
             className=" scale-[75%]"
           />
