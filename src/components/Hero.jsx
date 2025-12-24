@@ -6,7 +6,7 @@ export default function Hero() {
       id="hero"
       className="flex justify-center items-center p-5 lg:p-15 bg-mainbg dark:bg-mainbg-dark"
     >
-      <div className="md:w-[75%] grid lg:grid-cols-2 items-center">
+      <div className="md:w-[80%] grid lg:grid-cols-2 gap-5 items-center">
         <div className="flex flex-col justify-center h-full lg:py-20">
           <h1 className="text-5xl font-bold mb-2 leading-tight lg:mb-4 text-primarytext dark:text-primarytext-dark">
             Hi, I am <br />
@@ -30,9 +30,9 @@ export default function Hero() {
         </div>
         <div>
           <img
-            src="/photo.png"
+            src="/placeholder.jpg"
             alt="placeholder"
-            className=" scale-[75%]"
+            className="scale-[80%]"
           />
         </div>
       </div>

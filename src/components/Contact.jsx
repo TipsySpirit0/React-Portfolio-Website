@@ -20,12 +20,28 @@ export default function Contact() {
             . Whether you have a job opportunity, a project idea, or just want
             to have a chat, feel free to reach out.
           </p>
-          <div className="flex flex-row gap-5 items-center flex-wrap">
+          <div className="items-center flex-wrap mb-2">
             <a
               href="#"
               className="border-b-2 text-primarytext dark:text-primarytext-dark border-secondaryaccent dark:border-secondaryaccent-dark font-semibold"
             >
               Resume
+            </a>
+          </div>
+          <div className="flex flex-row gap-7">
+            <a href="https://github.com/TipsySpirit0/" target="_blank">
+              <img
+                src="bx-github.svg"
+                alt="github logo"
+                className="scale-150"
+              />
+            </a>
+            <a href="" target="_blank">
+              <img
+                src="bx-linkedin.svg"
+                alt="linkedin logo"
+                className="scale-150"
+              />
             </a>
           </div>
         </div>
@@ -56,7 +72,6 @@ export default function Contact() {
           </form>
         </div>
       </div>
-      <div></div>
     </section>
   );
 }
