@@ -36,7 +36,7 @@ export default function Contact() {
                 className="scale-150"
               />
             </a>
-            <a href="" target="_blank">
+            <a href="https://www.linkedin.com/in/oluwatobiloba-onabanjo-334a221b3/" target="_blank">
               <img
                 src="bx-linkedin.svg"
                 alt="linkedin logo"

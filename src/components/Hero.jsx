@@ -28,12 +28,8 @@ export default function Hero() {
             </button>
           </div>
         </div>
-        <div>
-          <img
-            src="/placeholder.jpg"
-            alt="placeholder"
-            className="scale-[80%]"
-          />
+        <div className="flex align-center">
+          <img src="/photo.png" alt="Developer Picture" className="scale-75" />
         </div>
       </div>
     </section>
