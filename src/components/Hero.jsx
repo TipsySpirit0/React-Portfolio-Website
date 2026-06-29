@@ -1,12 +1,10 @@
-import React from "react";
-
 export default function Hero() {
   return (
     <section
       id="hero"
-      className="flex justify-center items-center p-5 lg:p-15 bg-mainbg dark:bg-mainbg-dark"
+      className="flex justify-center items-center md:px-25 p-5 bg-mainbg dark:bg-mainbg-dark"
     >
-      <div className="md:w-[80%] grid lg:grid-cols-2 gap-5 items-center">
+      <div className="md:w-[80%] flex flex-col md:flex-row items-center">
         <div className="flex flex-col justify-center h-full lg:py-20">
           <h1 className="text-5xl font-bold mb-2 leading-tight lg:mb-4 text-primarytext dark:text-primarytext-dark">
             Hi, I am <br />
@@ -28,7 +26,7 @@ export default function Hero() {
             </button>
           </div>
         </div>
-        <div className="flex align-center">
+        <div className="w-fit h-fit">
           <img src="/photo.png" alt="Developer Picture" className="scale-75" />
         </div>
       </div>

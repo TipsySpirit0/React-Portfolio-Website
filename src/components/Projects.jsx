@@ -51,6 +51,7 @@ export default function Projects() {
         <div className="flex flex-col lg:flex-row gap-8">
           {projects.map((project) => (
             <a
+              key={project}
               href={project.link}
               target="_blank"
               className="bg-altbg dark:bg-altbg-dark w-fit min-h-113 border border-gray-300 dark:border-gray-600 mt-2 p-5 rounded-lg hover:scale-105 transition-transform duration-300"
@@ -77,7 +78,7 @@ export default function Projects() {
                 </p>
                 <div className="flex flex-wrap gap-2">
                   {project.tools.map((tool) => (
-                    <span className="p-3 text-sm bg-secondaryaccent dark:bg-secondaryaccent-dark text-primarytext rounded-full">
+                    <span key={tool} className="p-3 text-sm bg-secondaryaccent dark:bg-secondaryaccent-dark text-primarytext rounded-full">
                       {tool}
                     </span>
                   ))}

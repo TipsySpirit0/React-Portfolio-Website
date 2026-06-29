@@ -44,7 +44,7 @@ export default function About() {
               "Web Scraping",
               "API Integration",
             ].map((skills) => (
-              <span className="p-3 text-sm text-primarytext bg-secondaryaccent dark:bg-secondaryaccent-dark rounded-full">
+              <span key={skills} className="p-3 text-sm text-primarytext bg-secondaryaccent dark:bg-secondaryaccent-dark rounded-full">
                 {skills}
               </span>
             ))}
