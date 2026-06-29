@@ -2,7 +2,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="flex justify-center items-center md:px-25 p-5 bg-mainbg dark:bg-mainbg-dark"
+      className="flex justify-center items-center md:px-25 p-5 mt-5 bg-mainbg dark:bg-mainbg-dark"
     >
       <div className="md:w-[80%] flex flex-col md:flex-row items-center">
         <div className="flex flex-col justify-center h-full lg:py-20">
