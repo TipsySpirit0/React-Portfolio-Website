@@ -13,8 +13,8 @@ function Navbar({ isDark, toggleMode }) {
 
   return (
     <div>
-      <nav className="fixed w-dvw top-0 z-50 bg-mainbg dark:bg-mainbg-dark border-b border-gray-300 dark:border-gray-600">
-        <div className="w-[90%] md:w-[85%] justify-self-center flex flex-row justify-between py-3">
+      <nav className="fixed flex justify-center w-dvw top-0 z-50 bg-mainbg dark:bg-mainbg-dark border-b border-gray-300 dark:border-gray-600">
+        <div className="w-[90%] md:w-[85%] flex flex-row justify-between py-3">
           <a
             href="#hero"
             className="text-2xl font-bold text-primaryaccent dark:text-primaryaccent-dark hover:text-secondaryaccent dark:hover:text-secondaryaccent-dark"
