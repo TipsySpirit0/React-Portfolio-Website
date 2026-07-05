@@ -1,4 +1,4 @@
-function ModeSwitcher({ darkmode, toggleMode }) {
+function ModeSwitcher({ darkmode, toggleMode, isOpen }) {
   const SunIcon = () => (
     <svg
       xmlns="http://www.w3.org/2000/svg"

@@ -37,7 +37,12 @@ function Navbar({ isDark, toggleMode }) {
               </a>
             ))}
 
-            <ModeSwitcher darkmode={isDark} toggleMode={toggleMode} />
+            <ModeSwitcher
+              darkmode={isDark}
+              toggleMode={toggleMode}
+              isOpen={isOpen}
+              className=""
+            />
           </div>
         </div>
       </nav>

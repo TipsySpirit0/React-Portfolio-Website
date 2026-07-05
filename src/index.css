@@ -3,6 +3,16 @@
 
 @custom-variant dark (&:where(.dark, .dark *));
 
+@font-face {
+  font-family: SpaceGrotesk;
+  src: url("../src/assets/fonts/SpaceGrotesk-Regular.ttf");
+}
+
+@font-face {
+  font-family: Inter;
+  src: url("../src/assets/fonts/Inter_24pt-Regular.ttf");
+}
+
 @theme {
   --color-frenchblue: #26408b;
   --color-amberglow: #ff9f1c;
@@ -27,6 +37,11 @@
   --color-primaryaccent-dark: #6366f1;
   --color-secondaryaccent-dark: #22d3ee;
   --color-border-dark: #1e293b;
+
+  --color-background: #0b1120;
+  --color-surface: #111827;
+  --color-primary: #3b82f6;
+  --color-accent: #22c55e;
 
   --font-headline: "Stack Sans Headline", sans-serif;
 }
