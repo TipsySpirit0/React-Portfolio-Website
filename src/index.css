@@ -44,4 +44,6 @@
   --color-accent: #22c55e;
 
   --font-headline: "Stack Sans Headline", sans-serif;
+  --font-spacegrotesk: SpaceGrotesk, "sans-serif";
+  --font-inter: Inter, "sans-serif";
 }
