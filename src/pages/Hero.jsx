@@ -1,5 +1,5 @@
-import Mainhero from "./Mainhero";
-import Herobutton from "./Herobutton";
+import Mainhero from "../components/Mainhero";
+import Herobutton from "../components/Herobutton";
 
 export default function Hero() {
   return (
