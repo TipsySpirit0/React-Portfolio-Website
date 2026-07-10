@@ -1,15 +1,19 @@
 export default function Skillspread({ title, list }) {
   return (
-    <div>
-      <h1 className="text-xl mb-3">{title}</h1>
-      {list.map((item) => (
-        <span
-          key={item}
-          className="p-3 mr-1 text-sm text-primarytext bg-secondaryaccent dark:bg-secondaryaccent-dark rounded-full"
-        >
-          {item}
-        </span>
-      ))}
+    <div className="font-inter">
+      <h1 className="text-2xl mb-5 font-semibold text-primarytext dark:text-primarytext-dark">
+        {title}
+      </h1>
+      <div className="flex flex-wrap gap-2">
+        {list.map((item) => (
+          <span
+            key={item}
+            className="py-2 px-4 text-base h-fit w-fit bg-primaryaccent dark:bg-primaryaccent-dark text-mainbuttontext dark:text-mainbuttontext-dark rounded-4xl"
+          >
+            {item}
+          </span>
+        ))}
+      </div>
     </div>
   );
 }
