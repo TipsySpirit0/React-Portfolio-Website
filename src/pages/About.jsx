@@ -5,7 +5,7 @@ export default function About() {
   const front = ["HTML5", "CSS3", "Javascript", "React", "Angular"];
   const back = ["Django"];
   const tools = ["Git & GitHub"];
-  const design = ["Responsive Web Design"];
+  const design = ["Responsive Design"];
 
   return (
     <section
@@ -20,27 +20,27 @@ export default function About() {
             "I'm a Frontend developer who thrives on building reliable responsive websites. I'm proficient in a wide range of modern technologies and tools for building scalable web applicatons"
           }
         />
-        <div className="flex flex-col gap-7">
-          <div className="grid grid-cols-2 grid-rows-2 gap-10">
+        <div className="flex flex-col gap-5 lg:gap-7">
+          <div className="grid lg:grid-cols-2 lg:grid-rows-2 gap-3 lg:gap-10">
             <Skillspread title={"Frontend"} list={front} />
             <Skillspread title={"Backend"} list={back} />
             <Skillspread title={"Tools"} list={tools} />
             <Skillspread title={"Design"} list={design} />
           </div>
-          <div className="grid grid-cols-3 gap-4 pt-6">
-            <div className="space-y-2">
-              <p className="text-4xl font-bold text-primarytext dark:text-primarytext-dark">
+          <div className="grid grid-cols-3 gap-4 lg:pt-6">
+            <div className="lg:space-y-2">
+              <p className="text-3xl lg:text-4xl font-bold text-primarytext dark:text-primarytext-dark">
                 10+
               </p>
-              <p className="text-lg text-secondarytext dark:text-secondarytext-dark">
+              <p className="text-base lg:text-lg text-secondarytext dark:text-secondarytext-dark">
                 Projects Completed
               </p>
             </div>
-            <div className="space-y-2">
-              <p className="text-4xl font-bold text-primarytext dark:text-primarytext-dark">
+            <div className="lg:space-y-2">
+              <p className="text-3xl lg:text-4xl font-bold text-primarytext dark:text-primarytext-dark">
                 2+
               </p>
-              <p className="text-lg text-secondarytext dark:text-secondarytext-dark">
+              <p className="text-base lg:text-lg text-secondarytext dark:text-secondarytext-dark">
                 Years Experience
               </p>
             </div>

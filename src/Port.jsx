@@ -14,7 +14,11 @@ export default function Port() {
   };
 
   return (
-    <main className={`min-h-screen font-headline ${isDark ? "dark" : ""}`}>
+    <main
+      className={`min-h-screen font-headline bg-mainbg dark:bg-mainbg-dark ${
+        isDark ? "dark" : ""
+      }`}
+    >
       <Navbar isDark={isDark} toggleMode={toggleMode} />
       <Hero />
       <About />
